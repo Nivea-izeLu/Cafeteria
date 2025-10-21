@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width"> 
+  <title>Cafeteria</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="menu">
+      
+    <h2 id="titulo"> NivPat Cafeteria</h2>
+  <div class="form-card">
+      <label for="nome">Nome do Item: </label>
+      <input type="text" id="nome" name="nome" placeholder="Ex: Pão de Queijo"></input>
+  </div>
+
+    <div class="divisao-form">
+    <div class="form-card">
+      <label for ="preco">Preço do Item: </label>
+      <input type="number" id="preco" name="preco" placeholder="Ex: R$ 2.50"></input>
+    </div>
+
+      <div class="form-card">
+      <label for ="qtd">Quant. do Item: </label>
+      <input type="number" id="qtd" name="qtd" placeholder="Ex: 5"></input>        
+      </div>
+  </div>
+    
+      <button onclick='calcular()'>Calcular Preço</button>
+
+    <div class="resultado">
+
+      <h4>Resumo do item: </h4>
+      <p id='nome-quant'></p> 
+      <span id="valorT"> </span>
+    </div>
+
+    <button onclick='salvar()'>Adicionar ao Pedido</button>  
+    </div>
+
+  
+    <div class="mostrarLista" id="mostrarLista"> 
+       
+    </div>
+    
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>

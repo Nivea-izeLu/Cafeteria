@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "pao",
+    "quant": 3,
+    "preco": "9.00",
+    "valor": 27,
+    "totalPedido": "464.00"
+  },
+  {
+    "nome": "pao",
+    "quant": 7,
+    "preco": "6.00",
+    "valor": 42,
+    "totalPedido": "42.00"
+  },
+  {
+    "nome": "cafe",
+    "quant": 6,
+    "preco": "9.00",
+    "valor": 54,
+    "totalPedido": "96.00"
+  },
+  {
+    "nome": "bolo",
+    "quant": 3,
+    "preco": "8.00",
+    "valor": 24,
+    "totalPedido": "120.00"
+  },
+  {
+    "nome": "panqueca",
+    "quant": 8,
+    "preco": "41.00",
+    "valor": 328,
+    "totalPedido": "328.00"
+  }
+]
