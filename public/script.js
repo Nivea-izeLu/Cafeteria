@@ -29,7 +29,7 @@ function calcular() {
 
 function mostrarLista() {
   const div = document.getElementById("mostrarLista");
-  div.innerHTML = "<h5 id='tituloPedido'>Itens do Pedido</h5>";
+  div.innerHTML = "<center><h5 id='tituloPedido'>Itens do Pedido</h5></center>";
 
  
       pedidoAtual.forEach((item, index) => { //para cada item do json/array fara o processo abaixo
@@ -44,7 +44,8 @@ function mostrarLista() {
 
         div.appendChild(p); //adiciona <p> no id do html escolhido toda vez q a função rodar
       });
- 
+
+     
 }
 
 
@@ -54,7 +55,7 @@ function salvar() {
 
   //quando a function rodar o valor do item a ser salvo vai ser somado ao valor do valorPedido
   valorPedido += parseFloat(cafeData.valor);
-   document.getElementById("valorT").innerHTML ="Total do Pedido: R$ " + valorPedido.toFixed(2).replace(".", ",");
+   document.getElementById("valorT").innerHTML ="<center>Total do Pedido: R$ " + valorPedido.toFixed(2).replace(".", ",")+"</center>";
 
   //o total do pedido agora vai ser armazenado dentro da array tbm
   cafeData.totalPedido = valorPedido.toFixed(2);
