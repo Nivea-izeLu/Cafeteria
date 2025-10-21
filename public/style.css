@@ -31,7 +31,7 @@ body {
 }
 
 .menu {
-  background-color: #ECDDCA;
+  background-color: #da3c3c;
   flex: 2;
   margin: 10vh 21vw 0vh 21vw;
   border-radius: 10px;
@@ -74,13 +74,18 @@ button {
 
 .resultado {
   background-color: #BFA799;
-  height: 10vh;
+  height: 30vh;
   width: 40vw;
   border-radius: 10px 10px 0 0;  
 }
 
 h4 {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+  color: #331c11;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* Parte para mostrar a lista JSON*/
