@@ -9,11 +9,12 @@
 </head>
 
 <body>
-
+  
   <div class="container">
-    <div class="menu">
-      
-    <h2 id="titulo"> NivPat Cafeteria</h2>
+    <div class="parte1">
+      <img src="/imagens/Logo.png" alt="Logo da Cafeteria" class="logo">
+
+   <div class="menu">
   <div class="form-card">
       <label for="nome">Nome do Item: </label>
       <input type="text" id="nome" name="nome" placeholder="Ex: Pão de Queijo"></input>
@@ -29,26 +30,27 @@
       <label for ="qtd">Quant. do Item: </label>
       <input type="number" id="qtd" name="qtd" placeholder="Ex: 5"></input>        
       </div>
-  </div>
+    </div>
     
-      <button onclick='calcular()'>Calcular Preço</button>
-
+    <button onclick='calcular()'>Calcular Preço</button>
+    
     <div class="resultado">
-
+      
       <h4>Resumo do item: </h4>
       <p id='nome-quant'></p> 
       <span id="valorT"> </span>
+      
+      <button onclick='salvar()'>Adicionar ao Pedido</button>
     </div>
+  </div>
+    
+</div>
 
-    <button onclick='salvar()'>Adicionar ao Pedido</button>  
-    </div>
-
-  
-    <div class="mostrarLista" id="mostrarLista"> 
-       
-    </div>
+  <div class="mostrarLista" id="mostrarLista"> 
     
   </div>
+  
+</div>
   
   <script src="script.js"></script>
   
