@@ -38,7 +38,7 @@ function mostrarLista() {
         //cria uma tag <p> e escreve um texto dentro dela
         p.innerHTML = ` <strong>  ${index + 1}.  ${item.nome} </strong> <br> 
       unidade: ${item.quant} <br> 
-      preço: ${item.preco} <br> 
+      preço: ${item.preco} <br>
       v.total: ${item.valor} <br>
       <b>--------------------</b>`;
 
