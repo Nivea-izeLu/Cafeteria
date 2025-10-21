@@ -11,15 +11,28 @@ body {
   background-size: cover;
 }
 
+.logo {
+  width: 24vw;
+  height: 24vh;
+  margin-top: 8vh;
+}
+
+.parte1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .menu {
   background-color: #ECDDCA;
   flex: 2;
-  height: 70vh;
-  margin: 15vh 17vw 0vh 17vw;
+  margin: 10vh 21vw 0vh 21vw;
+  border-radius: 10px;
 }
 
 #titulo {
@@ -29,11 +42,12 @@ body {
 
 input[type="text"],
 input[type="number"] {
-  padding: 8px;
+  padding: 7px;
   border-radius: 19px;
   font-size: 1em;
-  width: 100%;
+  width: 94%;
   color: #73412F;
+  display: block;
 }
 
 .divisao-form {
@@ -50,18 +64,29 @@ button {
   background-color: #7E5C4A;
   color: antiquewhite;
   width: 20vw;
-  display: flex;
-  justify-content: center;
-  margin: auto;
   padding: 1vh;
+  margin: 5vh 10vw 5vh 10vw;
+  border: solid 0px;
+  border-radius: 10px;
+}
+
+.resultado {
+  background-color: #BFA799;
+  height: 10vh;
+  width: 40vw;
+  border-radius: 10px 10px 0 0;  
+}
+
+h4 {
+  padding: 10px;
 }
 
 /* Parte para mostrar a lista JSON*/
 .mostrarLista {
   background-color: #512615;
-  width: 60vw;
+  width: 20vw;
   height: 100vh;
-  flex: 1;
+  
 }
 
 #tituloPedido {
