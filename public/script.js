@@ -11,12 +11,12 @@ function calcular() {
 
   // após calcular o total do item o nome, quantidade e o preço são enviados em forma de texto pro html
   document.getElementById("nome-quant").innerHTML =
-    "- Item: " +
+    " <center> - Item: " +
     nome +
     ". - Unidade: " +
     parseFloat(quantidade) +
-    ". - Valor Total: R$" +
-    parseFloat(valorTotal);
+    ". - Valor Total: <strong> R$" +
+    parseFloat(valorTotal) + "</strong> </center>";
 
   //array que armazena as informações desejadas
   cafeData = {
@@ -36,11 +36,11 @@ function mostrarLista() {
         const p = document.createElement("p"); //cria uma tag html
 
         //cria uma tag <p> e escreve um texto dentro dela
-        p.innerHTML = ` <strong>  ${index + 1}.  ${item.nome} </strong> <br> 
+        p.innerHTML = `<strong>  ${index + 1}.  ${item.nome} </strong> <br> 
       unidade: ${item.quant} <br> 
       preço: ${item.preco} <br>
       v.total: ${item.valor} <br>
-      <b>--------------------</b>`;
+      <b>--------------------</b>  `;
 
         div.appendChild(p); //adiciona <p> no id do html escolhido toda vez q a função rodar
       });

@@ -16,6 +16,7 @@ body {
   width: 24vw;
   height: 24vh;
   margin-top: 8vh;
+  padding-right: 1vw;
 }
 
 .parte1 {
@@ -32,7 +33,7 @@ body {
 .menu {
   background-color: #ECDDCA;
   flex: 2;
-  margin: 10vh 21vw 5vh 21vw;
+  margin: 10vh 21vw 1.5vh 21vw;
   border-radius: 10px;
 }
 
@@ -72,16 +73,17 @@ button {
 }
 
 .btnSalvar {
-  margin-top: 4vh;
+  margin-top: 3vh;
 }
 
 .text{
-  padding: 2vh 0 2vh 0;
+  padding: 2.5vh 0 2.5vh 0;
+  color: #331c11;
 }
 
 .resultado {
   background-color: #BFA799;
-  height: 36vh;
+  height: 30vh;
   width: 40vw;
   border-radius: 15px;  
   margin: 1vh 1vw 5vh 1vw;
@@ -109,5 +111,8 @@ h4 {
   font-size: 40px;
   font-weight: 400;
   font-style: normal;
-  color: bisque;
+  color: #ffe4c4;
+}
+p{
+  color: #ffe4c4;
 }
