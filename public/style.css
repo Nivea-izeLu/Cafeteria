@@ -13,9 +13,9 @@ body {
 }
 
 .logo {
-  width: 24vw;
-  height: 24vh;
-  margin-top: 8vh;
+  width: 22vw;
+  height: 22vh;
+  margin-top: 3vh;
   padding-right: 1vw;
 }
 
@@ -33,32 +33,54 @@ body {
 .menu {
   background-color: #ECDDCA;
   flex: 2;
-  margin: 10vh 21vw 1.5vh 21vw;
+  margin:auto;
+  transform: translate(1%, 0%);
   border-radius: 2vw;
+  padding: 2.5vh 2vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 label {
-  font-size: 3vh;
+  font-size: 1.3vw;
   color: #452013;
   font-weight: 500;
 }
 
-input[type="text"],
-input[type="number"] {
+input[type="text"] {
   border-radius: 10vh;
-  font-size: 1em;
-  width: 100%;
-  color: #73412F;
+  font-size: 1.2vw;
+  width: 40vw;
+  height: 4vh;
   display: block;
   justify-content: center;
   align-items: center;
   padding: 1vh;
+  margin-top: 1vh;
+  background-color: white;
+  border-color:#331c11;
+  border-style:solid;
+}
+
+input[type="number"] {
+  border-radius: 10vh;
+  font-size: 1.2vw;
+  width: 18vw;
+  height: 4vh;
+  color: #000000;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-color:#331c11;
+  border-style:solid;
 }
 
 .divisao-form {
    display: flex;
    justify-content: space-between;
    gap: 4vh;
+   margin-top: 2vh;
 }
 
 button {
@@ -69,10 +91,11 @@ button {
   margin: 5vh 10vw 5vh 10vw;
   border: solid 0px;
   border-radius: 10px;
+  font-size: 2.3vh
 }
 
 .btnSalvar {
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 
 .text{
@@ -82,25 +105,29 @@ button {
 
 .resultado {
   background-color: #BFA799;
-  height: 33vh;
+  height: 28vh;
   width: 40vw;
-  border-radius: 4vh;  
+  border-radius: 4vh; 
 }
 
 h4 {
   display: flex;
   justify-content: center;
-  padding-top: 3vh;
+  padding-top: 1vw;
   color: #331c11;
   font-weight: bold;
-  font-size: 3.5vh;
+  font-size: 1.5vw;
 }
 
 /* Parte para mostrar a lista JSON*/
 .mostrarLista {
   background-color: #512615;
-  width: 35vw;
-  height: 120vh;
+  width: 16.8vw;
+  height: 100vh;
+  right:0% ;
+  position: absolute;
+  box-shadow: 0 5px 82px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 2vw;
 }
 
 #tituloPedido {
@@ -109,24 +136,34 @@ h4 {
   font-weight: 400;
   font-style: normal;
   color: #ffe4c4;
-  padding-left: 1vh;
+  
 }
 p{
   color: #ffe4c4;
 }
 
 .total{
-background-color:#512615;
-width: 18vw;
+background-color:#73412F;
+border-radius: 3vw;
+width: 16.8vw;
 height: 8vh;
-padding: 0.5vh;
+right: 0.8%;
+top:92%;
+position: absolute;
 }
+
 #valorT{
-  color:#ffe4c4;
-  width: 18vw;
-  height: 15vh;
+  color: #ffe4c4;
+  width: 16vw;
+  height: 5vh;
   padding: 0.5vh;
-  font: arial;
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-weight: 800;
+  display: block;
+  margin-top: 2vh;
+}
+
+#esp{
+  margin-left: 20px;
+  padding-left: 20px;
 }

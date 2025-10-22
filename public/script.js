@@ -29,14 +29,14 @@ function calcular() {
 
 function mostrarLista() {
   const div = document.getElementById("mostrarLista");
-  div.innerHTML = "<h5 id='tituloPedido'>Itens do Pedido</h5>";
+  div.innerHTML = "<center><h5 id='tituloPedido'>Itens do Pedido</h5></center>";
 
  
       pedidoAtual.forEach((item, index) => { //para cada item do json/array fara o processo abaixo
         const p = document.createElement("p"); //cria uma tag html
 
         //cria uma tag <p> e escreve um texto dentro dela
-        p.innerHTML = `<strong>  ${index + 1}.  ${item.nome} </strong> <br> 
+        p.innerHTML = ` <br> <strong>  ${index + 1}.  ${item.nome} </strong> <br> 
       unidade: ${item.quant} <br> 
       preço: ${item.preco} <br>
       v.total: ${item.valor} <br>
