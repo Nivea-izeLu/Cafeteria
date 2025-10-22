@@ -114,3 +114,19 @@ h4 {
 p{
   color: #ffe4c4;
 }
+
+.total{
+background-color:#512615;
+width: 18vw;
+height: 8vh;
+padding: 0.5vh;
+}
+#valorT{
+  color:#ffe4c4;
+  width: 18vw;
+  height: 15vh;
+  padding: 0.5vh;
+  font: arial;
+  font-size: 3vh;
+  font-weight: 800;
+}

@@ -54,7 +54,7 @@ function salvar() {
 
   //quando a function rodar o valor do item a ser salvo vai ser somado ao valor do valorPedido
   valorPedido += parseFloat(cafeData.valor);
-   document.getElementById("valorT").innerHTML ="Total do Pedido: R$ " + valorPedido.toFixed(2).replace(".", ",");
+   document.getElementById("valorT").innerHTML ="<center>Total do Pedido: R$ " + valorPedido.toFixed(2).replace(".", ",")+"</center>";
 
   //o total do pedido agora vai ser armazenado dentro da array tbm
   cafeData.totalPedido = valorPedido.toFixed(2);
