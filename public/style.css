@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(../imagens/fundo.jpg) no-repeat center center fixed;
+  background: url(imagens/fundo.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -34,32 +34,31 @@ body {
   background-color: #ECDDCA;
   flex: 2;
   margin: 10vh 21vw 1.5vh 21vw;
-  border-radius: 10px;
+  border-radius: 2vw;
 }
 
-#titulo {
-  text-align: center;
-  margin: 30px;
+label {
+  font-size: 3vh;
+  color: #452013;
+  font-weight: 500;
 }
 
 input[type="text"],
 input[type="number"] {
-  padding: 7px;
-  border-radius: 19px;
+  border-radius: 10vh;
   font-size: 1em;
-  width: 94%;
+  width: 100%;
   color: #73412F;
   display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
 }
 
 .divisao-form {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.form-card {
-  flex: 1;
-  padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   gap: 4vh;
 }
 
 button {
@@ -83,10 +82,9 @@ button {
 
 .resultado {
   background-color: #BFA799;
-  height: 30vh;
+  height: 33vh;
   width: 40vw;
-  border-radius: 15px;  
-  margin: 1vh 1vw 5vh 1vw;
+  border-radius: 4vh;  
 }
 
 h4 {
@@ -95,15 +93,14 @@ h4 {
   padding-top: 3vh;
   color: #331c11;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 3.5vh;
 }
 
 /* Parte para mostrar a lista JSON*/
 .mostrarLista {
   background-color: #512615;
-  width: 20vw;
-  height: 130vh;
-  
+  width: 35vw;
+  height: 120vh;
 }
 
 #tituloPedido {
@@ -112,6 +109,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   color: #ffe4c4;
+  padding-left: 1vh;
 }
 p{
   color: #ffe4c4;
